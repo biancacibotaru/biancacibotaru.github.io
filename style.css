@@ -68,6 +68,10 @@ li.favorite {
   font-weight: bold;
   color: green;
 }
+#skills li span {
+  font-weight: 200px;
+  color: gray;
+}
 
 #top-menu-bar {
   margin: 0;
