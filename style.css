@@ -26,6 +26,8 @@ body {
 #main {
   flex: 4;
   padding: 10px 10px 5px 5px;
+  display: flex;
+  flex-direction: column;
 }
 header {
   background: linear-gradient(45deg, #0798ab99, transparent);
@@ -56,6 +58,7 @@ header h2 {
   background-color: #ffffff;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.2);
   border-radius: 2px;
+  flex: 1;
 }
 
 label {
