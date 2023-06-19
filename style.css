@@ -62,7 +62,7 @@ label {
   color: darkblue;
 }
 #job-title {
-  color: #334455;
+  color: #1a528a;
 }
 li.favorite {
   font-weight: bold;
@@ -120,6 +120,8 @@ footer .item {
 }
 footer a {
   padding: 2px 5px;
+  border-radius: 0.2em;
+  transition: 0.5s;
 }
 footer a:hover {
   text-decoration: none;
