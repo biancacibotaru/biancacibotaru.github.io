@@ -103,6 +103,20 @@ li.favorite {
   background-color: #497bad;
 }
 
+#languages table {
+  width: 50%;
+  min-width: 330px;
+  border-collapse: collapse;
+}
+#languages table th,
+table td {
+  border: 1px solid #497bad;
+  padding: 5px;
+}
+#languages th {
+  background: #d1e7ea;
+}
+
 footer {
   background-color: #497bad;
   display: flex;
