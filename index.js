@@ -34,7 +34,7 @@ function clickOnMenu(e) {
 
 function showSkillsList(skills) {
   const ul = $("#skills ul");
-  const skillsHTML = skills.map(function (skill) {
+  const skillsHTML = skills.map((skill) => {
     const className = skill.favorite ? "favorite" : "";
     return `<li class="${className}">${skill.name} <span>- ${skill.endorcements}</span></li>`;
   });
@@ -42,7 +42,7 @@ function showSkillsList(skills) {
 }
 
 function getSkillsRequest() {
-  fetch("skills.json").then(function (r) {
+  fetch("skills.json").then((r) => {
     r.json().then(showSkillsList);
   });
 }
