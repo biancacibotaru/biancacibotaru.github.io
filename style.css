@@ -62,7 +62,7 @@ label {
   color: darkblue;
 }
 #job-title {
-  color: blue;
+  color: #334455;
 }
 li.favorite {
   font-weight: bold;
@@ -96,6 +96,32 @@ li.favorite {
 }
 #top-menu-bar a.active,
 #top-menu-bar a:hover {
-  color: #334455;
-  background-color: #0ff;
+  color: white;
+  background-color: #497bad;
+}
+
+footer {
+  background-color: #497bad;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+  gap: 5px;
+  padding: 10px 10px 8px 10px;
+}
+footer .item {
+  color: #f5f5f5;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+}
+footer a {
+  padding: 2px 5px;
+}
+footer a:hover {
+  text-decoration: none;
+  background-color: #334455;
 }
